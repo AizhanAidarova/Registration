@@ -25,16 +25,18 @@
         <input type="text" placeholder="Стоимость товара">
         <input type="text" placeholder="Количество товара">
         <input type="text" placeholder="Итого сумма кредита">
-        <div class="type">
-            <div class="type-credit type1">
-                <div>Вид кредита</div>
-                <div><img src="./img/Vector.svg" alt="Vector"></div>
-            </div>
-            <div class="type-credit type1">
-                <div>Срок кредита(мес)</div>
-                <div><img src="./img/Vector.svg" alt="Vector"></div>
-            </div>
-        </div>
+        <select name="credit">
+            <option hidden disabled selected value> Кредит/рассрочка</option>
+            <option class="value1" >Кредит</option>
+            <option class="value2">Рассрочка</option>
+        </select>
+        <select name="">
+            <option hidden selected value> мин 3 месяца</option>
+            <option class="value1">3 месяца</option>
+            <option class="value2">6 месяцев</option>
+            <option class="value3">9 месяцев</option>
+            <option class="value4">12 месяцев</option>
+        </select>
         <div class="type-credit2">
             <div class="point">Точка получения товара</div>
             <div class="vector"><img src="./img/Vector.svg" alt=""></div>
@@ -43,6 +45,7 @@
     <div>
         <button>Оформить заявку</button>
     </div>
+
 </div>
 </body>
 </html>

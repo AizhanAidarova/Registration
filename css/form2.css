@@ -99,3 +99,26 @@ button{
     border-radius: 6px;
     letter-spacing: 1.5px;
 }
+select{
+    width: 205px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 4px;
+    padding-left: 13px;
+    border: 1px solid #AEAEAE;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #DADADA;
+}
+.value1{
+    color: black;
+}
+.value2{
+    color: black;
+}
+.value3{
+    color: black;
+}
+.value4{
+    color: black;
+}
